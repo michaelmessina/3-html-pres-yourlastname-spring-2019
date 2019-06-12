@@ -1,0 +1,165 @@
+body, html, section {
+    height: 100%;
+    width: 100%;
+}
+
+/* slideshow */
+.mySlides {display:none;}
+
+.dark-red {
+    background-color: #9a1e1e;
+}
+
+h1 {
+    margin: 0;
+    font-size: 5.5vw;
+}
+
+h2 {
+    margin: 0;
+    font-size: 5vw;
+}
+
+h3 {
+    margin: 0;
+    font-size: 4.5vw;
+}
+
+h4 {
+    margin: 0;
+    font-size: 4vw;
+}
+
+h5 {
+    margin: 0;
+    font-size: 3.5vw;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+/* Full Screen Images */
+.fs-img-1 { 
+    /* The image used */
+    background-image: url("/img/man-overlooking-mountain.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fs-img-2 { 
+    /* The image used */
+    background-image: url("/img/beach-clouds-dawn.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fs-img-3 { 
+    /* The image used */
+    background-image: url("/img/feel-the-sunset.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img { 
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dylan-1 {
+    background-image: url("/img/dylan-cone.JPG");
+}
+
+.dylan-2 {
+    background-image: url("/img/dylan-jaguar.JPG");
+}
+
+.dylan-3 {
+    background-image: url("/img/dylan-nonno.JPG");
+}
+
+.dylan-4 {
+    background-image: url("/img/malia-bike-dylan.JPG");
+}
+    
+
+.display-left-custom {
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+/* Full Screen Video */
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+/* Full Screen Video */
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+/* Add some content at the bottom of the video/page */
+.video-content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* audio */
